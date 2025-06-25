@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Bereich</title>
+</head>
+<body>
+  <h1>Admin Bereich</h1>
+
+  <% if (error) { %>
+    <p style="color: red;"><%= error %></p>
+  <% } %>
+
+  <form method="POST" action="/admin">
+    <label>Passwort: <input type="password" name="password" required /></label><br />
+    <label>Link 1: <input type="url" name="link1" value="<%= links[1] %>" /></label><br />
+    <label>Link 2: <input type="url" name="link2" value="<%= links[2] %>" /></label><br />
+    <label>Link 3: <input type="url" name="link3" value="<%= links[3] %>" /></label><br />
+    <button type="submit">Speichern</button>
+  </form>
+  <a href="/">Zurück zur Übersicht</a>
+</body>
+</html>
