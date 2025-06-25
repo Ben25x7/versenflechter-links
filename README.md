@@ -1,48 +1,18 @@
-# 🎵 Versenflechter Links
+# Versenflechter-Links
 
-Willkommen auf der offiziellen Link-Seite von **Der Versenflechter**.  
-Hier findest du verschiedene Musik-Playlists auf **Suno** – optisch dargestellt über klickbare Icons mit individuellem Banner.
+Willkommen bei der "Versenflechter-Links" Website! Diese Seite enthält Links zu verschiedenen Playlists, die du genießen kannst. Klicke einfach auf die Icons, um deine gewünschte Playlist zu öffnen.
 
----
+## Technologien
 
-## 🔗 Inhalte der Seite
+- HTML5
+- CSS3
+- GitHub Pages
 
-- Ein **Banner** oben als Header.
-- **6 klickbare Icons**, die zu verschiedenen Musik-Playlists führen:
-  1. Romantik & Gefühlsduselei  
-  2. Die verbotene Taverne  
-  3. Comedy  
-  4. Allgemein  
-  5. Medieval Modernstyle  
-  6. Chillout & 432Hz  
+## Installation
 
-Jedes Icon öffnet die jeweilige Playlist in einem neuen Tab.
+Um dieses Projekt lokal auszuführen:
 
----
-
-## 🌐 Live-Demo
-
-👉 [Zur GitHub Page](https://ben25x7.github.io/versenflechter-links/)
-
----
-
-## 🖼️ Bildstruktur
-
-Alle verwendeten Grafiken liegen im Ordner `images/`:
-
-- `banner.png` – wird oben angezeigt
-- `icon1.png` bis `icon6.png` – jeweils verlinkt zu einer Playlist
-
----
-
-## ⚖️ Lizenz
-
-Dieses Projekt steht unter der [MIT License](LICENSE).  
-Du darfst es frei verwenden, anpassen und teilen.
-
----
-
-## 📌 Hinweis
-
-Diese Seite dient als einfache, visuelle Verlinkung zu Suno-Playlists und wird manuell gepflegt.  
-Icons und Banner wurden selbst gestaltet.
+```bash
+git clone https://github.com/Ben25x7/versenflechter-links.git
+cd versenflechter-links
+open index.html in your browser
