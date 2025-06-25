@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Versenflechter-Links</title>
+  <style>
+    /* Hintergrundbild für die gesamte Seite */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('images/dein_hintergrundbild.jpg'); /* Dein neues Hintergrundbild */
+      background-size: cover; /* Deckt den gesamten Bildschirm ab */
+      background-position: center; /* Zentriert das Bild */
+      background-attachment: fixed; /* Fixiert das Bild beim Scrollen */
+      color: white; /* Setzt die Textfarbe auf weiß, damit sie gut sichtbar ist */
+      text-align: center;
+    }
+
+    /* Banner oben entfernt, da jetzt das Bild als Hintergrund genutzt wird */
+    .banner {
+      display: none;
+    }
+
+    /* Icons mit Links */
+    .icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .icons a img {
+      width: 150px;
+      height: auto;
+      transition: transform 0.2s ease;
+    }
+    .icons a img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Zusätzliche Textstile, falls du etwas Text über dem Hintergrund einfügen möchtest */
+    h1 {
+      color: white;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Falls du einen Titel oder Text über dem Hintergrund haben möchtest -->
+  <h1>Willkommen zu meinen Versenflechter-Links!</h1>
+
+  <!-- Icons mit Links -->
+  <div class="icons">
+    <a href="https://suno.com/playlist/ee53d025-45c5-4d12-97cb-af928587ec04" target="_blank">
+      <img src="images/icon1.png" alt="Romantik & Gefühlsduselei">
+    </a>
+    <a href="https://suno.com/playlist/8f789a5f-3ab4-4c3f-8393-5d7beeb154c6" target="_blank">
+      <img src="images/icon2.png" alt="Die verbotene Taverne">
+    </a>
+    <a href="https://suno.com/playlist/27661b70-1c3a-446b-a3a4-4f28e896edc6" target="_blank">
+      <img src="images/icon3.png" alt="Comedy">
+    </a>
+    <a href="https://suno.com/playlist/6638e8ae-f9f0-4614-b3a1-558bcd03fd47" target="_blank">
+      <img src="images/icon4.png" alt="Allgemein">
+    </a>
+    <a href="https://suno.com/playlist/acfc8579-1925-4483-a612-38629162024e" target="_blank">
+      <img src="images/icon5.png" alt="Medieval Modernstyle">
+    </a>
+    <a href="https://suno.com/playlist/19f3374d-3a03-4220-a58d-35fe9e15dd08" target="_blank">
+      <img src="images/icon6.png" alt="Chillout & 432Hz">
+    </a>
+  </div>
+
+</body>
+</html>
