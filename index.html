@@ -5,49 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Versenflechter-Links</title>
   <style>
-    /* Hintergrundbild auf der gesamten Seite */
+    /* Hintergrundbild für die gesamte Seite */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-image: url('images/background.jpg'); /* Dein Hintergrundbild */
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      color: #fff; /* Weißer Text */
+      background-image: url('images/dein_hintergrundbild.jpg'); /* Dein neues Hintergrundbild */
+      background-size: cover; /* Deckt den gesamten Bildschirm ab */
+      background-position: center; /* Zentriert das Bild */
+      background-attachment: fixed; /* Fixiert das Bild beim Scrollen */
+      color: white; /* Setzt die Textfarbe auf weiß, damit sie gut sichtbar ist */
       text-align: center;
     }
 
-    /* Icons mit Links */
+    /* Banner oben entfernt, da jetzt das Bild als Hintergrund genutzt wird */
+    .banner {
+      display: none;
+    }
+
+    /* Icons mit Links und weißem Hintergrund */
     .icons {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
       padding: 20px;
-      position: relative; /* Damit die Icons über dem Hintergrundbild sind */
-      z-index: 1;
     }
 
-    /* Jedes Icon mit weißem Hintergrund und abgerundeten Ecken */
+    /* Stile für jedes Icon */
     .icons a {
-      display: inline-block;
-      padding: 10px;
-      background-color: white; /* Weißer Hintergrund für die Icons */
-      border-radius: 10px; /* Abgerundete Ecken */
-      transition: transform 0.2s ease;
+      background-color: white; /* Weißer Hintergrund */
+      padding: 10px; /* Etwas Abstand für das Icon */
+      border-radius: 8px; /* Runde Ecken */
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
     }
 
-    .icons a:hover {
-      transform: scale(1.05); /* Leichte Vergrößerung beim Hover */
-    }
-
+    /* Icon-Bilder */
     .icons a img {
       width: 150px;
       height: auto;
+      border-radius: 6px; /* Runde Ecken für das Bild */
+    }
+
+    /* Hover-Effekt für die Icons */
+    .icons a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Schatteneffekt */
+    }
+
+    /* Zusätzliche Textstile, falls du etwas Text über dem Hintergrund einfügen möchtest */
+    h1 {
+      color: white;
+      margin-top: 100px;
     }
   </style>
 </head>
 <body>
+
+  <!-- Falls du einen Titel oder Text über dem Hintergrund haben möchtest -->
+  <h1>Willkommen zu meinen Versenflechter-Links!</h1>
 
   <!-- Icons mit Links -->
   <div class="icons">
@@ -73,6 +88,4 @@
 
 </body>
 </html>
-
-
 
