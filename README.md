@@ -1,30 +1,48 @@
-# Versenflechter Links
+# 🎵 Versenflechter Links
 
-Dies ist mein persönliches Link-Verwaltungsprojekt.  
-Über eine einfache Weboberfläche kann ich dynamisch bis zu drei Links hinterlegen und später jederzeit ändern.
-
-## 🔗 Live-Demo
-
-[https://versenflechter-qr.onrender.com](https://versenflechter-qr.onrender.com)
-
-## ✨ Features
-
-- Weiterleitung zu Link 1 über `/q`
-- Admin-Oberfläche zum Bearbeiten der Links
-- Passwortgeschützt (über Environment Variable)
-- Server mit Express (Node.js)
-- Layout mit EJS (Templates)
-
-## 🚧 Geplante Erweiterungen
-
-- QR-Code-Anzeige direkt auf der Seite
-- Klickzähler für die Links
-- Eigenes Logo im QR-Code (für T-Shirt-Projekt)
-
-## 🛡️ Lizenz
-
-Dieses Projekt steht unter der [CC BY-NC-ND 4.0 Lizenz](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
-© 2025 Ben25x7
+Willkommen auf der offiziellen Link-Seite von **Der Versenflechter**.  
+Hier findest du verschiedene Musik-Playlists auf **Suno** – optisch dargestellt über klickbare Icons mit individuellem Banner.
 
 ---
 
+## 🔗 Inhalte der Seite
+
+- Ein **Banner** oben als Header.
+- **6 klickbare Icons**, die zu verschiedenen Musik-Playlists führen:
+  1. Romantik & Gefühlsduselei  
+  2. Die verbotene Taverne  
+  3. Comedy  
+  4. Allgemein  
+  5. Medieval Modernstyle  
+  6. Chillout & 432Hz  
+
+Jedes Icon öffnet die jeweilige Playlist in einem neuen Tab.
+
+---
+
+## 🌐 Live-Demo
+
+👉 [Zur GitHub Page](https://ben25x7.github.io/versenflechter-links/)
+
+---
+
+## 🖼️ Bildstruktur
+
+Alle verwendeten Grafiken liegen im Ordner `images/`:
+
+- `banner.png` – wird oben angezeigt
+- `icon1.png` bis `icon6.png` – jeweils verlinkt zu einer Playlist
+
+---
+
+## ⚖️ Lizenz
+
+Dieses Projekt steht unter der [MIT License](LICENSE).  
+Du darfst es frei verwenden, anpassen und teilen.
+
+---
+
+## 📌 Hinweis
+
+Diese Seite dient als einfache, visuelle Verlinkung zu Suno-Playlists und wird manuell gepflegt.  
+Icons und Banner wurden selbst gestaltet.
