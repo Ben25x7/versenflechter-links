@@ -2,74 +2,63 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Versenflechter Playlists</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Versenflechter-Links</title>
   <style>
     body {
-      background-color: #111;
-      color: #fff;
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
       text-align: center;
     }
-
-    header img {
+    .banner {
       width: 100%;
-      max-width: 800px;
-      height: auto;
-      margin-top: 20px;
-      border-radius: 12px;
+      max-width: 1000px;
+      margin: 20px auto;
     }
-
-    .icon-grid {
+    .icons {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin: 40px auto;
       gap: 20px;
-      max-width: 1000px;
+      padding: 20px;
     }
-
-    .icon-grid a img {
+    .icons a img {
       width: 150px;
       height: auto;
-      border-radius: 12px;
       transition: transform 0.2s ease;
     }
-
-    .icon-grid a:hover img {
+    .icons a img:hover {
       transform: scale(1.05);
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="images/banner.png" alt="Versenflechter Banner">
-  </header>
+  <!-- Banner oben -->
+  <img src="images/banner.png" alt="Banner" class="banner">
 
-  <main>
-    <div class="icon-grid">
-      <a href="https://suno.com/playlist/ee53d025-45c5-4d12-97cb-af928587ec04" target="_blank">
-        <img src="images/icon1.png" alt="Romantik Playlist">
-      </a>
-      <a href="https://suno.com/playlist/8f789a5f-3ab4-4c3f-8393-5d7beeb154c6" target="_blank">
-        <img src="images/icon2.png" alt="Taverne Playlist">
-      </a>
-      <a href="https://suno.com/playlist/27661b70-1c3a-446b-a3a4-4f28e896edc6" target="_blank">
-        <img src="images/icon3.png" alt="Comedy Playlist">
-      </a>
-      <a href="https://suno.com/playlist/6638e8ae-f9f0-4614-b3a1-558bcd03fd47" target="_blank">
-        <img src="images/icon4.png" alt="Allgemein Playlist">
-      </a>
-      <a href="https://suno.com/playlist/acfc8579-1925-4483-a612-38629162024e" target="_blank">
-        <img src="images/icon5.png" alt="Medieval Playlist">
-      </a>
-      <a href="https://suno.com/playlist/19f3374d-3a03-4220-a58d-35fe9e15dd08" target="_blank">
-        <img src="images/icon6.png" alt="Chillout Playlist">
-      </a>
-    </div>
-  </main>
+  <!-- Icons mit Links -->
+  <div class="icons">
+    <a href="https://suno.com/playlist/ee53d025-45c5-4d12-97cb-af928587ec04" target="_blank">
+      <img src="images/icon1.png" alt="Romantik & Gefühlsduselei">
+    </a>
+    <a href="https://suno.com/playlist/8f789a5f-3ab4-4c3f-8393-5d7beeb154c6" target="_blank">
+      <img src="images/icon2.png" alt="Die verbotene Taverne">
+    </a>
+    <a href="https://suno.com/playlist/27661b70-1c3a-446b-a3a4-4f28e896edc6" target="_blank">
+      <img src="images/icon3.png" alt="Comedy">
+    </a>
+    <a href="https://suno.com/playlist/6638e8ae-f9f0-4614-b3a1-558bcd03fd47" target="_blank">
+      <img src="images/icon4.png" alt="Allgemein">
+    </a>
+    <a href="https://suno.com/playlist/acfc8579-1925-4483-a612-38629162024e" target="_blank">
+      <img src="images/icon5.png" alt="Medieval Modernstyle">
+    </a>
+    <a href="https://suno.com/playlist/19f3374d-3a03-4220-a58d-35fe9e15dd08" target="_blank">
+      <img src="images/icon6.png" alt="Chillout & 432Hz">
+    </a>
+  </div>
 
 </body>
 </html>
