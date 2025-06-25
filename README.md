@@ -1,18 +1,20 @@
 # Versenflechter-Links
 
-Willkommen bei der "Versenflechter-Links" Website! Diese Seite enthält Links zu verschiedenen Playlists, die du genießen kannst. Klicke einfach auf die Icons, um deine gewünschte Playlist zu öffnen.
+Willkommen zu **Versenflechter-Links**! Diese Seite bietet eine Sammlung von Musik-Links in Form von Icons, die du durch Klicken öffnen kannst.
 
-## Technologien
+## Hintergrund
 
-- HTML5
-- CSS3
-- GitHub Pages
+Das Projekt stellt eine Sammlung von Musik-Playlists zur Verfügung. Es wird als einfache und übersichtliche Webseite dargestellt, auf der du direkt die verschiedenen Playlists finden kannst.
 
-## Installation
+## Funktionen
 
-Um dieses Projekt lokal auszuführen:
+- Icons für verschiedene Playlists
+- Direktes Öffnen der Playlists in einem neuen Tab
+- Schönes Hintergrundbild, das die gesamte Seite schmückt
 
-```bash
-git clone https://github.com/Ben25x7/versenflechter-links.git
-cd versenflechter-links
-open index.html in your browser
+## Nutzung
+
+1. Lade das Repository auf deinen Rechner oder klone es mit:
+
+   ```bash
+   git clone https://github.com/Ben25x7/versenflechter-links.git
