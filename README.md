@@ -1,20 +1,14 @@
 # Versenflechter-Links
+# Versenflechter-Links
 
-Willkommen zu **Versenflechter-Links**! Diese Seite bietet eine Sammlung von Musik-Links in Form von Icons, die du durch Klicken öffnen kannst.
+Dies ist die Weiterleitungsseite zu meinem Suno-Profil:  
+👉 [suno.com/@derversenflechter](https://suno.com/@derversenflechter)
 
-## Hintergrund
+Die Seite enthält eine automatische Weiterleitung und ein Social-Media-Vorschaubild (banner.png), das beim Teilen angezeigt wird.
 
-Das Projekt stellt eine Sammlung von Musik-Playlists zur Verfügung. Es wird als einfache und übersichtliche Webseite dargestellt, auf der du direkt die verschiedenen Playlists finden kannst.
+## Lizenz
 
-## Funktionen
+Diese Seite ist durch folgendes lizenziert:
 
-- Icons für verschiedene Playlists
-- Direktes Öffnen der Playlists in einem neuen Tab
-- Schönes Hintergrundbild, das die gesamte Seite schmückt
-
-## Nutzung
-
-1. Lade das Repository auf deinen Rechner oder klone es mit:
-
-   ```bash
-   git clone https://github.com/Ben25x7/versenflechter-links.git
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)  
+[Mehr dazu →](https://creativecommons.org/licenses/by-nc-nd/4.0/)
